@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors')
 const helmet = require ('helmet')
 
-const { NOD_ENV } = require('./config')
+const { NODE_ENV } = require('./config')
 
 const app = express();
 
